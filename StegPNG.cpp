@@ -68,6 +68,8 @@ int main(int argc, char **argv) {
 			message = txtInput;
 		}
 
+		cout << "Running..." << endl;
+
 		//Set newImage vector for new picture
 		int counter = -1;
 		for (unsigned int i = 0; i < strlen(message); i++) {
@@ -145,6 +147,8 @@ int main(int argc, char **argv) {
 				return -2;
 			}
 		}
+
+		cout << "Running..." << endl;
 
 		//Decode image
 		int counter = -1;
